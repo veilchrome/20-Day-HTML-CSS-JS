@@ -3,50 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.scss">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <title>Day 3. Simple Login Page | veilchrome</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Day 3 Simple Login Page</title>
 </head>
 <body>
   <div class="login-card">
-    <div class="column">
-      <h1>Login</h1>
-      <p>Enjoy The Features after you log in</p>
-      <form>
-        <div class="form-item">
-          <input type="text" class="form-element" placeholder="Username or Email">
-        </div>
-        <div class="form-item">
-          <input type="password" class="form-element" placeholder="Password">
-        </div>
-        <div class="form-checkbox-item">
-          <input type="checkbox" id="rememberMe" checked>
-          <label for="rememberMe">Remember Me</label>
-        </div>
-        <div class="flex">
-          <button>Sign In</button>
-          <a href="#">Reset your Password Now</a>
-        </div>
-        <p style="margin-top: 3rem; margin-bottom: 1.5rem;">Other Sign In Methods</p>
-        <div class="social-buttons">
-          <a href="#" class="facebook">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="#" class="x">
-            <i class="bi bi-twitter-x"></i>
-          </a>
-          <a href="#" class="github">
-            <i class="bi bi-github"></i>
-          </a>
-        </div>
-      </form>
-    </div>
-    <div class="column">
-      <h2>Welcome to Veilchrome</h2>
-      <p>If you dont have an account, would you like to register first</p>
-      <a href="#">Sign Up</a>
-    </div>
+    <h2>Login</h2>
+    <h3>Enter your Credentials</h3>
+    <form class="login-form">
+      <input type="text" placeholder="Masukan Username atau Email">
+      <input type="password" placeholder="Password">
+      <a href="#">Forget Your Password</a>
+      <button type="submit">Login</button>
+    </form>
   </div>
-  
 </body>
 </html>
